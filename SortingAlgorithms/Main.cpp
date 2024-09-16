@@ -52,10 +52,23 @@ int main()
 		if (Keyboard::isKeyPressed(Keyboard::Space) && !canSort)
 			canSort = true;
 
+		if (Keyboard::isKeyPressed(Keyboard::R))
+		{
+			random_shuffle(numbers.begin(), numbers.end());
+			canSort = false;
+		}
+
 		DrawSquares(squares, window, numbers, WIDTH, HEIGHT);
 
 		if (canSort)
-			BubbleSort(numbers, squares, sound, window, WIDTH, HEIGHT);
+		{
+			//BubbleSort(numbers, squares, sound, window, WIDTH, HEIGHT);
+			//InsertionSort(numbers, squares, sound, window, WIDTH, HEIGHT);
+			//SelectionSort(numbers, squares, sound, window, WIDTH, HEIGHT);
+			//BogoSort(numbers, squares, sound, window, WIDTH, HEIGHT);
+			MergeSort(numbers, squares, 0, numbers.size() - 1, sound, window, WIDTH, HEIGHT);
+			canSort = false;
+		}
 	}
 
 	return 0;

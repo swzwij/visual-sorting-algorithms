@@ -1,21 +1,4 @@
-﻿  Drawing.cpp
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Drawing.cpp(9,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Drawing.cpp(9,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Drawing.cpp(10,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Drawing.cpp(10,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Sorting.cpp
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(7,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(24,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  SoundSample.cpp
-  Main.cpp
+﻿  Main.cpp
 F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Main.cpp(32,58): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
@@ -23,5 +6,16 @@ F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Main.cpp(32,58): warn
           ]
 F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Main.cpp(34,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Main.cpp(34,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Main.cpp(69,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Sorting.cpp
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(19,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(36,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(51,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(66,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(79,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(99,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(164,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(181,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\VS projects\visual-sorting-algorithms\SortingAlgorithms\Sorting.cpp(199,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
   SortingAlgorithms.vcxproj -> F:\VS projects\visual-sorting-algorithms\x64\Debug\SortingAlgorithms.exe
